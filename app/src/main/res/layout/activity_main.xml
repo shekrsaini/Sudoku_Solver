@@ -1,0 +1,904 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="9"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity" >
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a sudoku"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e6"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e7"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e8"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e9"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e10"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e11"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e12"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e13"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e14"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e15"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e16"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e17"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e18"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e19"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e20"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e21"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e22"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e23"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e24"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e25"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e26"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e27"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e28"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e29"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e30"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e31"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e32"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e33"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e34"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e35"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e36"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e37"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e38"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e39"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e40"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e41"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e42"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e43"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e44"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e45"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e46"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e47"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e48"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e49"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e50"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e51"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e52"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e53"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e54"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e55"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e56"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e57"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e58"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e59"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e60"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e61"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e62"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e63"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e64"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e65"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e66"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e67"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e68"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e69"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e70"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e71"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e72"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/e73"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e74"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e75"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e76"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e77"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e78"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e79"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e80"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+        <EditText
+            android:id="@+id/e81"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:digits="0123456789"
+
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:background="@drawable/my_border" />
+
+    </TableRow>
+
+
+
+    <Button
+        android:id="@+id/button_solve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+</TableLayout>
